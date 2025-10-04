@@ -1,5 +1,5 @@
-AI-Powered Health Risk Profiler
-Project Overview
+# AI-Powered Health Risk Profiler
+# Project Overview
 
 This project analyzes lifestyle survey responses (typed or scanned forms) and generates a structured health risk profile. It handles noisy inputs, missing answers, and provides guardrails for incomplete data.
 
@@ -13,7 +13,7 @@ Actionable, non-diagnostic recommendations
 
 Technologies used: Python, Flask/FastAPI (Backend), React (Frontend), OCR (pytesseract or cloud service).
 
-Table of Contents
+# Table of Contents
 
 Demo
 
@@ -31,14 +31,14 @@ cd backend
 pip install -r requirements.txt
 
 uvicorn app:app --reload   # FastAPI
-# OR
+or
 python app.py              # Flask
 
 cd frontend
 npm install
 npm start
 
-Architecture & State Management
+# Architecture & State Management
 
 Frontend: React with hooks or context API for state management.
 
@@ -54,7 +54,7 @@ Recommendations generation
 
 Data flow: Frontend → API call → Backend → Model → JSON response → Frontend renders results.
 
-Potential Improvements
+# Potential Improvements
 
 Add user authentication and profile management.
 Store user data and history in a database.
