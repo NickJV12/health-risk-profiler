@@ -57,8 +57,13 @@ Data flow: Frontend → API call → Backend → Model → JSON response → Fro
 # Potential Improvements
 
 Add user authentication and profile management.
+
 Store user data and history in a database.
+
 Add charts for historical risk trends.
+
 Improve frontend UX for mobile devices.
+
 Enhance OCR accuracy with pre-processing.
+
 Potential Improvements
